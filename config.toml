@@ -13,7 +13,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/nyc_wide.jpg"
+  header_image = "img/book_background.jpg"
   SEOTitle = "Nathan Cheever Blog"
   description = "I write about human purpose, morality, metaphysics, living well, and sometimes about the transcendent."
   keyword = "morality, life lessons, living well, transcendent, human purpose, metaphysics"
