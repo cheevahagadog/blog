@@ -5,7 +5,6 @@ title:  "The Relationist"
 subtitle: "People are more than arguments"
 author: "Nathan Cheever"
 
-tags: [ Friendship]
 categories: [ Shorter ]
 ---
 Last October I was walking to lunch with a friend. The Vice-Presidential debate happened the night before, and I glibly remarked about my hopes for the election outcome. Until that moment, I didn't realize that my friend felt differently. 
