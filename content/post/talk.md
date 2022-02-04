@@ -1,8 +1,13 @@
 ---
+layout: post
+
 title:  "Small Talk as an Onramp"
-tags: ["atomic-essay", communication]
-comments: false
-toc: false
+subtitle: "I've had it backwards for so long"
+author:  "Nathan Cheever"
+
+tags: [communication]
+
+categories: [ Shorter ]
 ---
 
 As an introvert, small talk has never come easy for me. I enjoy watching the occasional football or basketball game. Still, I can't talk at length about the recent trades or injuries. 
