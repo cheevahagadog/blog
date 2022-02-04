@@ -15,7 +15,7 @@ categories: [Longer]
 ---
 
 ## Preface
-There is a veritable plethora of videos and articles on how to setup a Zettlekästen digitally. There are tons of blogs and forums about Niklas Luhmann's practice, his prolific publishing record.
+There is a veritable plethora of videos and articles on how to setup a digital Zettlekästen. There are tons of blogs and forums about Niklas Luhmann's practice, his prolific publishing record.
 
 So why add another one? Frankly most of them aren't that helpful. I learn by seeing how something is actually done, especially an analog process. And more importantly, I want it to be true to the process Luhmann discovered. I know there are other methods out there, but this one is specifically for the Zettlekästen, so I want an authentic breakdown.
 
