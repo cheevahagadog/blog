@@ -4,7 +4,7 @@ layout: post
 title: "How to get up and running with an analog Zettlekästen (slipbox)"
 subtitle: "Three months and 110+ cards in, the lessons learned the hard way" 
 author: "Nathan Cheever"
-date: 2021-01-05
+date: 2022-02-04
 #description: "3 months and 110+ cards in, the lessons learned the hardway (lots of whiteout)"
 #image: "/img/karolis-milisauskas-GqQvtUA3dvw-unsplash.jpg"
 published: true
