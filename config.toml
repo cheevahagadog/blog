@@ -14,10 +14,10 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/book_background.jpg"
-  SEOTitle = "Nathan Cheever Blog"
-  description = "I write about human purpose, morality, metaphysics, living well, and sometimes about the transcendent."
+  SEOTitle = "Vertical Thinking Blog"
+  description = "The world is not flat"
   keyword = "morality, life lessons, living well, transcendent, human purpose, metaphysics"
-  slogan = "What's for dinner?"
+  slogan = "The world is not flat"
 
   image_404 = "img/404-bg.jpg"
   title_404 = "Woe is I!"
@@ -35,8 +35,8 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "Sharer of ideas I think about"
-  sidebar_avatar = "img/nate_talking.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_about_description = "Sharing ideas I'm working on"
+  #sidebar_avatar = "img/nate_talking.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = false 
   featured_condition_size = 1 
@@ -58,8 +58,8 @@ home = ["HTML", "RSS", "Algolia"]
   email          = "nathan.cheever12@gmail.com"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
-  twitter       = "https://twitter.com/nathanscheever"
-  linkedin       = "https://www.linkedin.com/in/nathancheever"
+  twitter       = "https://twitter.com/think_vertical"
+  #linkedin       = "https://www.linkedin.com/in/nathancheever"
   #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
   #instagram     = "full profile url in instagram"
   #github         = "https://github.com/yourgithub"
