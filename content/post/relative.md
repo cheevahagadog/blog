@@ -31,7 +31,7 @@ You're probably familiar with its dispiriting lingo:
  and all the rest. 
 
 I swore I would be open-minded and fair and consider everything.
- And so I acknowledged more but the knew less.
+ And so I acknowledged more but knew less.
 
 I found out that too much open-mindedness is like zero-gravity. 
 Pretty soon aphoristic tweets and "Thou Shalt Not" begin to have the same weight.
