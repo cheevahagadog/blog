@@ -72,7 +72,7 @@ And even a small truth is enormous in the void of subjectivism.
 
 ## Final thoughts
 Demolition took about a week but rebuilding has taken years.
- Most of that time I was wondering if a foundation of truth existed.
+ Most of that time I wondered if a foundation of truth existed.
 
 Having found some, my bet is there is a lot more of it out there. I find that comforting.
 
