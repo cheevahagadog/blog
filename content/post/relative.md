@@ -40,10 +40,9 @@ At its finest, open-mindedness is like taking a walk in the fresh air.
  It's healthy to get out of your head/house every so often.
  But you shouldn't stay outside, enduring the elements under some kind of self-imposed banishment.
 
-But I digress...
 
 ## The turning point
-This advance of subjectivism was stopped once I realized the power of a simple question.
+But I digress. This advance of subjectivism was stopped once I realized the power of a simple question.
 
 > **"Is that true?"**
 
