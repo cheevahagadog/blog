@@ -15,9 +15,9 @@ home = ["HTML", "RSS", "Algolia"]
 [params]
   header_image = "img/book_background.jpg"
   SEOTitle = "Vertical Thinking Blog"
+  slogan = "Thinking vertically"
   description = "The world is not flat"
   keyword = "morality, life lessons, living well, transcendent, human purpose, metaphysics"
-  slogan = "The world is not flat"
 
   image_404 = "img/404-bg.jpg"
   title_404 = "Woe is I!"
