@@ -25,6 +25,7 @@ Plato saw a defect in his culture. How honorable and virtuous could Athens be if
 
 For Plato, it was time for a revolution.
 
+![Plato](/img/platolift.jpg)
 ----------------
 Plato wanted to shake things up in Greece.
 
