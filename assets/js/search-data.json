@@ -33,6 +33,17 @@
         
     
   
+    
+        ,"post3": {
+            "title": "How I made my own newsletter from my bookmarks with Python",
+            "content": "I have a lot of bookmarks that I actively curate. I’m kinda a bookmark junkie, carefully considering where each one belongs. For example, here’s a picture of what my visualization folder looks like: . . All these bookmarks come from great newsletters such as Python weekly, Data Elixir, Data Science Weekly and others. So I thought what would be more natural than creating a newsletter out of my bookmarks! . That’s when Barker was born. Set to a cron job, you can create your own newsletter for yourself, or customize it a bit to be for your company. Here’s an example of one of mine: . . You can configure it so it will take X number of recent bookmarks, have it focus on only one folder, use all except a few, and filter out bookmarks in a given domain (such as stackoverflow or a Google doc). . Currently it only works with Chrome, though I’ll look into adding support for other browsers if there is any interest. . To get started using it, check it out here https://github.com/cheevahagadog/barker. If you use it and have any suggestions, I’d be glad to hear them! Feel free to submit a pull request, open an issue, or ping me on social media. .",
+            "url": "https://cheevahagadog.github.io/fastblog/python/2017/10/15/barker-create-a-newsletter.html",
+            "relUrl": "/python/2017/10/15/barker-create-a-newsletter.html",
+            "date": " • Oct 15, 2017"
+        }
+        
+    
+  
 
   
   
