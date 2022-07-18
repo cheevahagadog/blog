@@ -1,11 +1,10 @@
 ---
-toc: true
+toc: false
 layout: post
-description: A minimal example of using markdown with fastpages.
-categories: [markdown]
-title: An Example Markdown Post (testing)
+description: Discovering which features were the most influential
+categories: [machine learning]
+title: Finding out which features contributed to each row's prediction
 ---
-# Finding out which features contributed to each row's prediction
 
 Almost completed with a machine learning project, I was asked by the client if I could include what the reasons where for each prediction. I had done feature importances before, but never was I asked to (or thought of) listing out what the reasons where behind each prediction made by my model.
 
