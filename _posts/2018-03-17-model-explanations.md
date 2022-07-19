@@ -3,6 +3,7 @@ toc: false
 layout: post
 description: Discovering which features were the most influential
 categories: [machine learning]
+image: images/shap_example.png
 title: Finding out which features contributed to each row's prediction
 ---
 
