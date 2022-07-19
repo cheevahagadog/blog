@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: BUILDING A DATA SCIENCE TEAM FROM SCRATCH WITH DALLIN HOMER -- BUSINESS ANALYTICS AND INSIGHTS MANAGER
+description: Building a Data Science Team from scratch with Dallin Homer 
 categories: [Python, R, SQL, interview]
 title: Doing Data Analytics at AdvancedMD
 ---
