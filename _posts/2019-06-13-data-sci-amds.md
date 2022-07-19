@@ -6,7 +6,7 @@ categories: [Python, R, SQL, interview]
 title: Doing Data Analytics at AdvancedMD
 ---
 
-_(Note: This was originally written by me and published on [UtahDataScientist.com](https://utahdatascientist.org/)_
+_(Note: This was originally written by me and published on [UtahDataScientist.com](https://utahdatascientist.org/))_
 
 The data team at [AdvancedMD](https://www.advancedmd.com/) just had its first birthday a few months ago. Last year, the leadership decided it was time to invest in their data strategy by creating a data team with two analysts, a data scientist and a data engineer. Since then, they have revolutionized how data is accessed and used throughout the company. I spoke with [Dallin Homer](https://www.linkedin.com/in/dallinhomer/), the Business Analytics and Insights Manager over the data team, about how data science is done at AdvancedMD and any advice he had for those getting started in the field.
 
@@ -33,6 +33,7 @@ Technical skills are of course important. A junior data scientist should be fami
 He recommends connecting with people in this space and learn the tools that are being used to solve your problem and start learning those. “Be inquisitive. Always try to understand the data before you set off to model it. Understanding the context of the data is a huge asset.”
 
 “If you’re not sure or don’t know what interests you, try looking around in your community for problems that you could tackle. Ask a family member or a friend if they have any projects. Just start going through the motions. Never underestimate the power of the side-project on your career.”
+
 
 > twitter: https://twitter.com/harper/status/724287782403846144
 
