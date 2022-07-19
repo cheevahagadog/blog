@@ -2,6 +2,7 @@
 toc: false
 layout: post
 categories: [python]
+image: images/Screen Shot 2017-10-05 at 2.50.36 PM.png
 title: How I made my own newsletter from my bookmarks with Python
 ---
 
