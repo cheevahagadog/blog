@@ -48,11 +48,11 @@ shap.force_plot(shap_values[0,:], X.iloc[0,:])
 ```
 
 Which yields this pretty visualization:
-![]({{ site.baseurl }}/images/shap_example.png "SHAP viz")
+![]({{ site.baseurl }}/image/shap_example.png "SHAP viz")
 
 Awesome! This looked perfect for me…except my output needed to be in a CSV format. I didn’t need the pretty visualizations, I just needed something that an analyst could read and use if they needed to make a phone call to a potentially churning client and say “Hi I am calling because it looks like you haven’t had any X in over 6 months” or something to that effect. Something like this:
 
-![]({{ site.baseurl }}/images/xgboost_factors_row_breakdown.png "SHAP viz")
+![]({{ site.baseurl }}/image/xgboost_factors_row_breakdown.png "SHAP viz")
 
 
 ## Problem
