@@ -3,6 +3,7 @@ toc: false
 layout: post
 description: Ways to write faster operations in pandas
 categories: [python, pandas]
+image: images/pandas.jpg
 title: No more looping for me! Vectorizing in Pandas and Other Fun Tricks
 ---
 
