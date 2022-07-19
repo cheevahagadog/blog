@@ -151,11 +151,11 @@ window.onload = wrap_img;
 </code></pre></div></div>
 
 <p>Which yields this pretty visualization:
-<img src="//images/shap_example.png" alt="" title="SHAP viz" /></p>
+<img src="//image/shap_example.png" alt="" title="SHAP viz" /></p>
 
 <p>Awesome! This looked perfect for me…except my output needed to be in a CSV format. I didn’t need the pretty visualizations, I just needed something that an analyst could read and use if they needed to make a phone call to a potentially churning client and say “Hi I am calling because it looks like you haven’t had any X in over 6 months” or something to that effect. Something like this:</p>
 
-<p><img src="//images/xgboost_factors_row_breakdown.png" alt="" title="SHAP viz" /></p>
+<p><img src="//image/xgboost_factors_row_breakdown.png" alt="" title="SHAP viz" /></p>
 
 <h2 id="problem">Problem</h2>
 <p>I inspected the <code class="language-plaintext highlighter-rouge">shap_values</code> to realize it was a numpy matrix but it wasn’t obvious how to use it to get the effects of the features let alone know what the features were. And, for all its visual brilliance, the shap package unfortunately didn’t seem to have the ability to fetch the row-level prediction info into something more maleable, like a pandas DataFrame as shown above.</p>
