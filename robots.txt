@@ -1,1 +1,1 @@
-Sitemap: https://cheevahagadog.github.io/fastblog/sitemap.xml
+Sitemap: https://cheevahagadog.github.io/sitemap.xml
