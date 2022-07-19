@@ -10,16 +10,16 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Discovering which features were the most influential" />
 <meta property="og:description" content="Discovering which features were the most influential" />
-<link rel="canonical" href="https://cheevahagadog.github.io/machine%20learning/2018/03/17/model-explanations.html" />
-<meta property="og:url" content="https://cheevahagadog.github.io/machine%20learning/2018/03/17/model-explanations.html" />
+<link rel="canonical" href="https://cheevahagadog.github.io/blog/machine%20learning/2018/03/17/model-explanations.html" />
+<meta property="og:url" content="https://cheevahagadog.github.io/blog/machine%20learning/2018/03/17/model-explanations.html" />
 <meta property="og:site_name" content="Nathan Cheever - Understanding Data" />
-<meta property="og:image" content="https://cheevahagadog.github.io/images/shap_example.png" />
+<meta property="og:image" content="https://cheevahagadog.github.io/blog/images/shap_example.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-03-17T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://cheevahagadog.github.io/machine%20learning/2018/03/17/model-explanations.html","@type":"BlogPosting","headline":"Finding out which features contributed to each row’s prediction","dateModified":"2018-03-17T00:00:00-05:00","datePublished":"2018-03-17T00:00:00-05:00","image":"https://cheevahagadog.github.io/images/shap_example.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://cheevahagadog.github.io/machine%20learning/2018/03/17/model-explanations.html"},"description":"Discovering which features were the most influential","@context":"https://schema.org"}</script>
+{"url":"https://cheevahagadog.github.io/blog/machine%20learning/2018/03/17/model-explanations.html","@type":"BlogPosting","headline":"Finding out which features contributed to each row’s prediction","dateModified":"2018-03-17T00:00:00-05:00","datePublished":"2018-03-17T00:00:00-05:00","image":"https://cheevahagadog.github.io/blog/images/shap_example.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://cheevahagadog.github.io/blog/machine%20learning/2018/03/17/model-explanations.html"},"description":"Discovering which features were the most influential","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://cheevahagadog.github.io/feed.xml" title="Nathan Cheever - Understanding Data" /><!-- the google_analytics_id gets auto inserted from the config file -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://cheevahagadog.github.io/blog/feed.xml" title="Nathan Cheever - Understanding Data" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
 
 
@@ -34,7 +34,7 @@
 </script>
 
 
-<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
 <script>
@@ -69,7 +69,7 @@ window.onload = wrap_img;
 </head>
 <body><header class="site-header">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Nathan Cheever - Understanding Data</a><nav class="site-nav">
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Nathan Cheever - Understanding Data</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -79,7 +79,7 @@ window.onload = wrap_img;
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a></div>
+        <div class="trigger"><a class="page-link" href="/blog/about/">About</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -100,7 +100,7 @@ window.onload = wrap_img;
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <a class="category-tags-link" href="//categories/#machine learning">machine learning</a>
+        <a class="category-tags-link" href="/blog/categories/#machine learning">machine learning</a>
         
       
       </p>
@@ -151,11 +151,11 @@ window.onload = wrap_img;
 </code></pre></div></div>
 
 <p>Which yields this pretty visualization:
-<img src="//image/shap_example.png" alt="" title="SHAP viz" /></p>
+<img src="/blog/image/shap_example.png" alt="" title="SHAP viz" /></p>
 
 <p>Awesome! This looked perfect for me…except my output needed to be in a CSV format. I didn’t need the pretty visualizations, I just needed something that an analyst could read and use if they needed to make a phone call to a potentially churning client and say “Hi I am calling because it looks like you haven’t had any X in over 6 months” or something to that effect. Something like this:</p>
 
-<p><img src="//image/xgboost_factors_row_breakdown.png" alt="" title="SHAP viz" /></p>
+<p><img src="/blog/image/xgboost_factors_row_breakdown.png" alt="" title="SHAP viz" /></p>
 
 <h2 id="problem">Problem</h2>
 <p>I inspected the <code class="language-plaintext highlighter-rouge">shap_values</code> to realize it was a numpy matrix but it wasn’t obvious how to use it to get the effects of the features let alone know what the features were. And, for all its visual brilliance, the shap package unfortunately didn’t seem to have the ability to fetch the row-level prediction info into something more maleable, like a pandas DataFrame as shown above.</p>
@@ -245,20 +245,20 @@ window.onload = wrap_img;
 <p>Thanks for reading!</p>
 
 
-  </div><a class="u-url" href="/machine%20learning/2018/03/17/model-explanations.html" hidden></a>
+  </div><a class="u-url" href="/blog/machine%20learning/2018/03/17/model-explanations.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
+  <data class="u-url" href="/blog/"></data>
 
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <p class="feed-subscribe">
-          <a href="/feed.xml">
+          <a href="/blog/feed.xml">
             <svg class="svg-icon orange">
-              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
             </svg><span>Subscribe</span>
           </a>
         </p>
@@ -268,7 +268,7 @@ window.onload = wrap_img;
       </div>
     </div>
 
-    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/cheevahagadog" target="_blank" title="cheevahagadog"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/data_cheeves" target="_blank" title="data_cheeves"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/cheevahagadog" target="_blank" title="cheevahagadog"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/data_cheeves" target="_blank" title="data_cheeves"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
 </div>
 
   </div>
